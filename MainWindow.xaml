@@ -12,9 +12,9 @@
 		<Button x:Name="btn_betoltes" Content="Adatok betöltése" HorizontalAlignment="Left" Margin="39,24,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 		<Button x:Name="btn_2" Content="2.feladat" HorizontalAlignment="Left" Margin="154,24,0,0" VerticalAlignment="Top" Click="btn_f2_Click"/>
 		<Button x:Name="btn_3" Content="3.feladat" HorizontalAlignment="Left" Margin="354,24,0,0" VerticalAlignment="Top" Click="btn_3_Click"/>
-		<Button x:Name="btn_4" Content="4.feladat" HorizontalAlignment="Left" Margin="424,24,0,0" VerticalAlignment="Top"/>
-		<Button x:Name="btn_5" Content="5.feladat" HorizontalAlignment="Left" Margin="494,24,0,0" VerticalAlignment="Top"/>
-		<Button x:Name="btn_6" Content="6.feladat" HorizontalAlignment="Left" Margin="563,24,0,0" VerticalAlignment="Top"/>
+		<Button x:Name="btn_4" Content="4.feladat" HorizontalAlignment="Left" Margin="424,24,0,0" VerticalAlignment="Top" Click="btn_4_Click"/>
+		<Button x:Name="btn_5" Content="5.feladat" HorizontalAlignment="Left" Margin="494,24,0,0" VerticalAlignment="Top" Click="btn_5_Click"/>
+		<Button x:Name="btn_6" Content="6.feladat" HorizontalAlignment="Left" Margin="563,24,0,0" VerticalAlignment="Top" Click="btn_6_Click"/>
 		<TextBlock x:Name="tblock" HorizontalAlignment="Left" Margin="439,81,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="290" Width="303"/>
 		<TextBox x:Name="adatbevitel" HorizontalAlignment="Left" Margin="220,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 

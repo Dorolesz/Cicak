@@ -36,13 +36,31 @@ namespace Cicak
 
 		private void btn_f2_Click(object sender, RoutedEventArgs e)
 		{
-			
-			tblock.Text = $"Cica keresése név alapján";
+			string keresettCica = adatbevitel.Text?.ToLower() ?? "";
+			var talalat = lista.Where(c => c.Nev.Contains(keresettCica)).ToList();
+			grid.ItemsSource = talalat;
+			tblock.Text = $"Cica keresése név alapján: {talalat}";
 		}
 
 		private void btn_3_Click(object sender, RoutedEventArgs e)
 		{
+			var legnehezebbCica = lista.OrderByDescending();
 			tblock.Text = $"A legnehezebb cica keresése";
+		}
+
+		private void btn_4_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_5_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_6_Click(object sender, RoutedEventArgs e)
+		{
+
 		}
 	}
 }

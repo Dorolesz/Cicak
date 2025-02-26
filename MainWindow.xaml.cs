@@ -34,5 +34,15 @@ namespace Cicak
 			grid.ItemsSource = lista;
 		}
 
+		private void btn_f2_Click(object sender, RoutedEventArgs e)
+		{
+			
+			tblock.Text = $"Cica keresése név alapján";
+		}
+
+		private void btn_3_Click(object sender, RoutedEventArgs e)
+		{
+			tblock.Text = $"A legnehezebb cica keresése";
+		}
 	}
 }
